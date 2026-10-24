@@ -1,0 +1,496 @@
+{
+  "Release": "0.1.0-preview",
+  "HostVersion": "4.0.26241.138",
+  "OriginalFiles": [
+    {
+      "Path": "COPYRIGHT.txt",
+      "SHA256": "A48B54A4494300FF3D8F41F34AAFC74314ECCEADDE71BEB899C1231C3977BF1D"
+    },
+    {
+      "Path": "ksi.dll",
+      "SHA256": "D4AE39EFF6FED16F13FC732F026993B5147844FE54D8837A6C8FABF3C63A3179"
+    },
+    {
+      "Path": "ksidyn.bin",
+      "SHA256": "EB2C0E24C0A71F0B478C9EF22D4927349C6967B0CF3E9376A9D064489A2E0D8C"
+    },
+    {
+      "Path": "LICENSE.txt",
+      "SHA256": "E0CD000380F49907CB856B00AC44C436DF10E2B0AD24EA77576F8EF77F508BDD"
+    },
+    {
+      "Path": "peview.exe",
+      "SHA256": "E9F0B5966A706778C478A90D9A8858009D1F33B62304AC8368B3CB44D8E1093E"
+    },
+    {
+      "Path": "README.txt",
+      "SHA256": "29C068275F2B99405DFED86B2C6C6E0722944B743565796B76FBF74F42DA8039"
+    },
+    {
+      "Path": "SystemInformer.exe",
+      "SHA256": "2BF9832522BFA6B2D67584B5659CF38EB91F4FD1BEB1DF78954229C6FF7265F7"
+    },
+    {
+      "Path": "plugins/DotNetTools.dll",
+      "SHA256": "44D5D4F858E3FA3A2AA514907D86125E672AEEFEEF05C8FDA7DA77FA7EB59145"
+    },
+    {
+      "Path": "plugins/ExtendedNotifications.dll",
+      "SHA256": "D077A86DB78F2C166BDA3A61A84B0C99C218F989A72C5E4EB47816A6631E2E1C"
+    },
+    {
+      "Path": "plugins/ExtendedServices.dll",
+      "SHA256": "10EBAC237F019EECCA012C83F0F041A41C305A2389D06D561F741B73E58DDBA7"
+    },
+    {
+      "Path": "plugins/ExtendedTools.dll",
+      "SHA256": "23E74F7234F4ED8B718A3C31FA20923F0B7D78FB34F19E163EF4026B0E451BC8"
+    },
+    {
+      "Path": "plugins/HardwareDevices.dll",
+      "SHA256": "3D3F44460B7D5F38A671195C43682DB5C467C245518300AF48560B7609519E49"
+    },
+    {
+      "Path": "plugins/NetworkTools.dll",
+      "SHA256": "1CAEC4AD854B7C7F6397D7170CD96709B0B627F9CEDE3C17A00587B5F03981A1"
+    },
+    {
+      "Path": "plugins/OnlineChecks.dll",
+      "SHA256": "8A30023005FD03743E23B19D3A9FEC3966AC91600B8A26315EE3F6E36E7AA4D4"
+    },
+    {
+      "Path": "plugins/ToolStatus.dll",
+      "SHA256": "6BA2F930ABA71D1E2E33B385978B5ADFCB3E6413F0AFD860332A0CE0BDEF5307"
+    },
+    {
+      "Path": "plugins/Updater.dll",
+      "SHA256": "4A7DE1F730933A2903C6344F4C7EF03368E1BC83695C005FB971DB12E02E7DAE"
+    },
+    {
+      "Path": "plugins/UserNotes.dll",
+      "SHA256": "199E6291620C0821738A618C14EF55E10E0430F071F87C699B6D95F0C37643D1"
+    },
+    {
+      "Path": "plugins/WindowExplorer.dll",
+      "SHA256": "6BEDF0FACF0A02C2DCBB282DE1ADC9B06861BEAA7705FA7FF886324142C12C09"
+    },
+    {
+      "Path": "Resources/CapsList.txt",
+      "SHA256": "62979D82A49E24EA525B1A0249586473AC462DAD840513564992D73D417CEAF9"
+    },
+    {
+      "Path": "Resources/EtwGuids.txt",
+      "SHA256": "43426A3FB94A44B5F4092547A1DE5D9A676064BBCC485BD9B6A79EA1CB1598C8"
+    },
+    {
+      "Path": "Resources/icon.png",
+      "SHA256": "46E1C3D45F5085FA4F97F6BCB2AD0197DABB0E1C7EFD2A6CBA1A0BD3461E2387"
+    },
+    {
+      "Path": "Resources/PoolTag.txt",
+      "SHA256": "28D7902155B300414F4277BF212E4D9415810A7960CC67F5DA58A706BE6BD51E"
+    },
+    {
+      "Path": "Resources/settings.schema.json",
+      "SHA256": "4050B28E59C9534FED11C4BB4132173F44C20877F17ABA8CF19F4A71084111D4"
+    },
+    {
+      "Path": "x86/SystemInformer.exe",
+      "SHA256": "019FB36F032782C16D651C61D7714762BDF703404C572C22E6CA93EE91B6DE10"
+    },
+    {
+      "Path": "x86/plugins/DotNetTools.dll",
+      "SHA256": "16CDE0BEA8E66616325809D263F47BF6B0A5039247D850A7EB51E93FF0CC9B93"
+    },
+    {
+      "Path": "x86/plugins/ExtendedTools.dll",
+      "SHA256": "785EB7FE1423AC0163B947BABC32E1727544D5CA908622D19D6483A61A7B32BB"
+    }
+  ],
+  "Patches": [
+    {
+      "Module": "peview.exe",
+      "Resource": "patches/peview.exe.dialog.res"
+    },
+    {
+      "Module": "plugins/DotNetTools.dll",
+      "Resource": "patches/plugins__DotNetTools.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/ExtendedNotifications.dll",
+      "Resource": "patches/plugins__ExtendedNotifications.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/ExtendedServices.dll",
+      "Resource": "patches/plugins__ExtendedServices.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/ExtendedTools.dll",
+      "Resource": "patches/plugins__ExtendedTools.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/HardwareDevices.dll",
+      "Resource": "patches/plugins__HardwareDevices.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/NetworkTools.dll",
+      "Resource": "patches/plugins__NetworkTools.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/OnlineChecks.dll",
+      "Resource": "patches/plugins__OnlineChecks.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/ToolStatus.dll",
+      "Resource": "patches/plugins__ToolStatus.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/Updater.dll",
+      "Resource": "patches/plugins__Updater.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/UserNotes.dll",
+      "Resource": "patches/plugins__UserNotes.dll.dialog.res"
+    },
+    {
+      "Module": "plugins/WindowExplorer.dll",
+      "Resource": "patches/plugins__WindowExplorer.dll.dialog.res"
+    },
+    {
+      "Module": "SystemInformer.exe",
+      "Resource": "patches/SystemInformer.exe.dialog.res"
+    },
+    {
+      "Module": "x86/plugins/DotNetTools.dll",
+      "Resource": "patches/x86__plugins__DotNetTools.dll.dialog.res"
+    },
+    {
+      "Module": "x86/plugins/ExtendedTools.dll",
+      "Resource": "patches/x86__plugins__ExtendedTools.dll.dialog.res"
+    },
+    {
+      "Module": "x86/SystemInformer.exe",
+      "Resource": "patches/x86__SystemInformer.exe.dialog.res"
+    }
+  ],
+  "InstallFiles": [
+    {
+      "From": "payload/x64/ZhLocalization.dll",
+      "To": "plugins/ZhLocalization.dll"
+    },
+    {
+      "From": "payload/x64/ThirdPartyManager.dll",
+      "To": "plugins/ThirdPartyManager.dll"
+    },
+    {
+      "From": "payload/x86/ZhLocalization.dll",
+      "To": "x86/plugins/ZhLocalization.dll"
+    },
+    {
+      "From": "payload/x86/ThirdPartyManager.dll",
+      "To": "x86/plugins/ThirdPartyManager.dll"
+    },
+    {
+      "From": "runtime/third-party/backend.ps1",
+      "To": "third-party/backend.ps1"
+    },
+    {
+      "From": "runtime/third-party/restore.ps1",
+      "To": "third-party/restore.ps1"
+    },
+    {
+      "From": "README.md",
+      "To": "community-docs/README.md"
+    },
+    {
+      "From": "DISCLAIMER.md",
+      "To": "community-docs/DISCLAIMER.md"
+    },
+    {
+      "From": "THIRD-PARTY-NOTICES.md",
+      "To": "community-docs/THIRD-PARTY-NOTICES.md"
+    },
+    {
+      "From": "LICENSE",
+      "To": "community-docs/LICENSE"
+    },
+    {
+      "From": "CHANGELOG.md",
+      "To": "community-docs/CHANGELOG.md"
+    },
+    {
+      "From": "LICENSES/CommunityTranslation-MIT.txt",
+      "To": "community-docs/LICENSES/CommunityTranslation-MIT.txt"
+    },
+    {
+      "From": "LICENSES/SystemInformer-COPYRIGHT.txt",
+      "To": "community-docs/LICENSES/SystemInformer-COPYRIGHT.txt"
+    },
+    {
+      "From": "LICENSES/SystemInformer-MIT.txt",
+      "To": "community-docs/LICENSES/SystemInformer-MIT.txt"
+    },
+    {
+      "From": "docs/BUILD.md",
+      "To": "community-docs/docs/BUILD.md"
+    },
+    {
+      "From": "docs/VALIDATION.md",
+      "To": "community-docs/docs/VALIDATION.md"
+    }
+  ],
+  "PayloadFiles": [
+    {
+      "Path": ".gitattributes",
+      "SHA256": "35E2724966F6ACD54936A3A36CA7FFED0C9EF01FB2EEEC631FF6BB661966FA5A"
+    },
+    {
+      "Path": ".gitignore",
+      "SHA256": "EE12241880AE1C026B35ADE17D5B22DB5AE1F84ADC4C8EE24AD043676516B8CA"
+    },
+    {
+      "Path": "CHANGELOG.md",
+      "SHA256": "01F0C230361AF3DEC7AE9B3BC45DFD7E0DB7BE9B2E2C92B7B1A371902F394EE2"
+    },
+    {
+      "Path": "data/community-zh-CN.json",
+      "SHA256": "6E61EF9A7D7F711BEA4F7D317AFDF14F3841312A0144F935B75C9C62C4851E3F"
+    },
+    {
+      "Path": "DISCLAIMER.md",
+      "SHA256": "951DB44EF8A31C01126DDD63B3610C4DE89A92964B8155084A18F7B8EF7F8C78"
+    },
+    {
+      "Path": "docs/BUILD.md",
+      "SHA256": "73B2E981D135B9A6D7F89A647440E63DAFAE5BEC04AC156A5C545DB0BA344458"
+    },
+    {
+      "Path": "docs/VALIDATION.md",
+      "SHA256": "2DB30760A3295A984D6DC95976737DBC82E6A90494D2DFC06F9803B9526F1AE2"
+    },
+    {
+      "Path": "Install-Zh.ps1",
+      "SHA256": "685E1CC84BD907BBF31CFA7D14C8B97B9C7261D93806A71E68AA08D5B991A163"
+    },
+    {
+      "Path": "LICENSE",
+      "SHA256": "9E2830955B3A4988914C90536898FEEDE9277A7291CF13D330012FC5C43C6096"
+    },
+    {
+      "Path": "LICENSES/CommunityTranslation-MIT.txt",
+      "SHA256": "E2A4557D2C4E70276B0DDAA31F35E2CE075281DAC7E60AC07CA32C7CF58C1820"
+    },
+    {
+      "Path": "LICENSES/SystemInformer-COPYRIGHT.txt",
+      "SHA256": "A48B54A4494300FF3D8F41F34AAFC74314ECCEADDE71BEB899C1231C3977BF1D"
+    },
+    {
+      "Path": "LICENSES/SystemInformer-MIT.txt",
+      "SHA256": "E0CD000380F49907CB856B00AC44C436DF10E2B0AD24EA77576F8EF77F508BDD"
+    },
+    {
+      "Path": "patches/peview.exe.dialog.rc",
+      "SHA256": "73F26F92C0F539599D8F44F84C96E644CBC0DE47407838ECB448E342DA2C365B"
+    },
+    {
+      "Path": "patches/peview.exe.dialog.res",
+      "SHA256": "0D29BE3CE53C206CD5A0B95BF70EE1A7C127224C3021502FD8E0AF350681564E"
+    },
+    {
+      "Path": "patches/plugins__DotNetTools.dll.dialog.rc",
+      "SHA256": "91DD4673070ED06B49EF2F7529D12D0C4372319D8BACEF6CFE2CD33FFB357B8A"
+    },
+    {
+      "Path": "patches/plugins__DotNetTools.dll.dialog.res",
+      "SHA256": "90D6A0D7F846F07534FB16737462FB1B629EE34AFA49FF940C7D6AFE8BFDFDE0"
+    },
+    {
+      "Path": "patches/plugins__ExtendedNotifications.dll.dialog.rc",
+      "SHA256": "D014341B31C74E4AA53144FDFB4B41A094BA55792314456B45462E0131DE5F96"
+    },
+    {
+      "Path": "patches/plugins__ExtendedNotifications.dll.dialog.res",
+      "SHA256": "B4E31982DCD4954B23EF113116C7FF394E8F2B64BD8CB3487910503B15AC692C"
+    },
+    {
+      "Path": "patches/plugins__ExtendedServices.dll.dialog.rc",
+      "SHA256": "2E96D07525C8B1A7B4ADC7CC01C5C7B895DF1BEB76CD073D05DE97416E905C3D"
+    },
+    {
+      "Path": "patches/plugins__ExtendedServices.dll.dialog.res",
+      "SHA256": "080925EE1639026C9CE98C88C9EEBA7FD379536A735547E0AAF86C7FA181CAAB"
+    },
+    {
+      "Path": "patches/plugins__ExtendedTools.dll.dialog.rc",
+      "SHA256": "D2B85A03B39627E7223901A1B789DFF8D642DA6A961AB586C5864BEDDED30927"
+    },
+    {
+      "Path": "patches/plugins__ExtendedTools.dll.dialog.res",
+      "SHA256": "851C5CB0921921ADB3AB58E5D742D3A47D8A0457EA27760DCC3D877267F122F5"
+    },
+    {
+      "Path": "patches/plugins__HardwareDevices.dll.dialog.rc",
+      "SHA256": "269DAEE71D44663F81F8E5BB2CD228A8EF4EA23F41B86C066199C30B2029BC15"
+    },
+    {
+      "Path": "patches/plugins__HardwareDevices.dll.dialog.res",
+      "SHA256": "E1C4961990FD6C9ACA010A60D447B136C3FF19A5123098CC5D23DB9B10245341"
+    },
+    {
+      "Path": "patches/plugins__NetworkTools.dll.dialog.rc",
+      "SHA256": "B7AECB9ADF544F57A7C92B02CE50FC71295B986186772A3E900E6161988B5F53"
+    },
+    {
+      "Path": "patches/plugins__NetworkTools.dll.dialog.res",
+      "SHA256": "F27DC9BBD38CB07C93C967BB658D9E1C8CCB4AD553CA9FFFB64F63678BE3C9B0"
+    },
+    {
+      "Path": "patches/plugins__OnlineChecks.dll.dialog.rc",
+      "SHA256": "3A33AA7595A03DA81610EFBBC816B3D702914859E50386E3F62CE9D9A9661D27"
+    },
+    {
+      "Path": "patches/plugins__OnlineChecks.dll.dialog.res",
+      "SHA256": "558DC9D090B516E5466733A9607F1CC6189EDF6A4D35EA8FAD82D92F01E5A896"
+    },
+    {
+      "Path": "patches/plugins__ToolStatus.dll.dialog.rc",
+      "SHA256": "970E6893BF41BF40B5A9DB21861773C06846B99D745AE36C753FDB68B5EFBB6F"
+    },
+    {
+      "Path": "patches/plugins__ToolStatus.dll.dialog.res",
+      "SHA256": "905631D7E60871B78BF337CFC7F74E0DA37713B9EE64D0DA84DCC1A038E86B8D"
+    },
+    {
+      "Path": "patches/plugins__Updater.dll.dialog.rc",
+      "SHA256": "408C7374A1A886AF289F1430E9B2AE4450FF9C084FEC1666E3BA4772322B78AA"
+    },
+    {
+      "Path": "patches/plugins__Updater.dll.dialog.res",
+      "SHA256": "481DC295F316773325ECC950C714FD6378E1F6C998C1020F350944F5C6351677"
+    },
+    {
+      "Path": "patches/plugins__UserNotes.dll.dialog.rc",
+      "SHA256": "E58D3793E5319C725A3BFE3FC785AC32AC4FF13BD6C820BB876FE1FF32425FA7"
+    },
+    {
+      "Path": "patches/plugins__UserNotes.dll.dialog.res",
+      "SHA256": "B804334F185A808C218F88E241B991B2BD4C679F109B9F910941991B19CD403D"
+    },
+    {
+      "Path": "patches/plugins__WindowExplorer.dll.dialog.rc",
+      "SHA256": "20D4898AC47A80D4C5B864C1476979784ED646C61FD3E683BB2A2DC766BABCB6"
+    },
+    {
+      "Path": "patches/plugins__WindowExplorer.dll.dialog.res",
+      "SHA256": "E52364AA2E0CAE1C42A7BC211A05F2199ADD53070AE0E35E6E4791A462647B7B"
+    },
+    {
+      "Path": "patches/SystemInformer.exe.dialog.rc",
+      "SHA256": "8C487FDC4FEAC777AD200C6ADEEAA5D371838A9AC8B2F25F3A17072D51EDCE07"
+    },
+    {
+      "Path": "patches/SystemInformer.exe.dialog.res",
+      "SHA256": "B0059C3C73FC18CE13B61B7B7CA5F6508003E4C3986C98BAD7F4946265CC327A"
+    },
+    {
+      "Path": "patches/x86__plugins__DotNetTools.dll.dialog.rc",
+      "SHA256": "91DD4673070ED06B49EF2F7529D12D0C4372319D8BACEF6CFE2CD33FFB357B8A"
+    },
+    {
+      "Path": "patches/x86__plugins__DotNetTools.dll.dialog.res",
+      "SHA256": "90D6A0D7F846F07534FB16737462FB1B629EE34AFA49FF940C7D6AFE8BFDFDE0"
+    },
+    {
+      "Path": "patches/x86__plugins__ExtendedTools.dll.dialog.rc",
+      "SHA256": "D2B85A03B39627E7223901A1B789DFF8D642DA6A961AB586C5864BEDDED30927"
+    },
+    {
+      "Path": "patches/x86__plugins__ExtendedTools.dll.dialog.res",
+      "SHA256": "851C5CB0921921ADB3AB58E5D742D3A47D8A0457EA27760DCC3D877267F122F5"
+    },
+    {
+      "Path": "patches/x86__SystemInformer.exe.dialog.rc",
+      "SHA256": "8C487FDC4FEAC777AD200C6ADEEAA5D371838A9AC8B2F25F3A17072D51EDCE07"
+    },
+    {
+      "Path": "patches/x86__SystemInformer.exe.dialog.res",
+      "SHA256": "B0059C3C73FC18CE13B61B7B7CA5F6508003E4C3986C98BAD7F4946265CC327A"
+    },
+    {
+      "Path": "payload/x64/ThirdPartyManager.dll",
+      "SHA256": "F63F81B13BD673FA0E1538BCB313DE954235F0D8101DA4BF871CF6F53F7A71C2"
+    },
+    {
+      "Path": "payload/x64/ZhLocalization.dll",
+      "SHA256": "8862B384C0F14711A0D69049E5EFF54C6CCFC6FD924CE91617CA63978B735A81"
+    },
+    {
+      "Path": "payload/x86/ThirdPartyManager.dll",
+      "SHA256": "F5D8142102AAEB1A4C080D844DBEFE999918A2AF85E03AA29547201864C56EAD"
+    },
+    {
+      "Path": "payload/x86/ZhLocalization.dll",
+      "SHA256": "BB0AA37DD1393A685C8B585937376ADA6DDBD9351C8C6562E394AFADAE59338F"
+    },
+    {
+      "Path": "README.md",
+      "SHA256": "7CC0ED554E7737611739970B225051D5D2DC1A7A727420ADF80624478E50B763"
+    },
+    {
+      "Path": "runtime/third-party/backend.ps1",
+      "SHA256": "5263B55772A3D4A617E01AAD82E3E69B6D4603843878832DB3AABAA5EF60134B"
+    },
+    {
+      "Path": "runtime/third-party/restore.ps1",
+      "SHA256": "E50372BF593CEC0680E12B8675F7032BE90213DDBB156EA75C344C3FD09FF8A8"
+    },
+    {
+      "Path": "src/localization-plugin/plugin.c",
+      "SHA256": "A817F43F514BA2139D58C36BEE6BB05CB84E0B2339342B1706FE9FDDF3024380"
+    },
+    {
+      "Path": "src/localization-plugin/zh_dictionary.h",
+      "SHA256": "F829DF7C176C608258EEB2C9A58E3B76BB12C571D2BE5C18E643AC506C0E69DE"
+    },
+    {
+      "Path": "src/localization-plugin/zh_exports.h",
+      "SHA256": "E392C73E55CC69ACCE184E9C268791F49770208F99C7B6ED2E7DFEA75A29E67A"
+    },
+    {
+      "Path": "src/localization-plugin/zh_ui.c",
+      "SHA256": "9BB155BF26BA6148B72900574A66AABC9492C8853371825961A81082D7147214"
+    },
+    {
+      "Path": "src/localization-plugin/zh_ui.h",
+      "SHA256": "DDE4F616C2E872A502C47627C55AD66C55D90865D4CCF709BF07FD922645BEEA"
+    },
+    {
+      "Path": "src/ResourcePatch.cs",
+      "SHA256": "16F650B9E26D978E7FAC1F209A4815FE28A159E7AFF7C1DB26C3B0F40B24D197"
+    },
+    {
+      "Path": "src/third-party/third_party.c",
+      "SHA256": "66A0FA9BBB1CC9EBDF5E5FFC488127F2778604D32EB850CE130A404DAF472A44"
+    },
+    {
+      "Path": "tests/Test-Installer.ps1",
+      "SHA256": "36BEFE3E2BEDCEAE335639B6111F6F685E7E1036EBC3D543EE60FEEA9B015103"
+    },
+    {
+      "Path": "tests/Test-Resources.ps1",
+      "SHA256": "F632F32A0E119BDBA2ADE838FBEE964BE1189780E185AA42C574E66ABB19783F"
+    },
+    {
+      "Path": "THIRD-PARTY-NOTICES.md",
+      "SHA256": "ED8CA04A9961CEC583A0460095D34B0367D2E0C358DFCA86203C5A831C1C1C50"
+    },
+    {
+      "Path": "tools/Build.cmd",
+      "SHA256": "4F4B8AAD80B6FE752FE6CB8088CC222AC487397C9626E8E7689D4D3286379CB7"
+    },
+    {
+      "Path": "tools/Update-PayloadHashes.ps1",
+      "SHA256": "540098EB9BFB9A61F8A3B090376888D8B8D3DFE8BB6CC82B885E6C3E92B26B4A"
+    }
+  ]
+}
